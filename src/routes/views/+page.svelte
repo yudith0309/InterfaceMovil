@@ -13,26 +13,25 @@
 
   <div class="w-2/5 h-32 p-5 bg-white rounded-bl-3xl rounded-br-3xl justify-between items-end inline-flex">
 	<img alt="The project logo" src={newlogo} />
-	<div class="h-24 relative"></div>
-		<div class="h-24 justify-end items-center flex">
-	  <div class="text-center text-sky-950 text-xl font-semibold font-['K2D'] leading-6 tracking-wide">1.000.000.000</div>
+	<div class="h-24 justify-end items-center flex">
+	  <div class="text-center text-sky-950 text-xl font-semibold font-variant-numeric:lining-nums leading-6 tracking-wide">1.000.000.000</div>
 	  <div class="justify-start items-center gap-2.5 flex">		
 		<img class="w-8 h-8" src={icons8}/>
 		<div class="w-8 h-8 relative">
-		  <img class="w-8 h-8 left-0 top-0 absolute" src={icons8_menu}/>
+		  <img class="w-8 h-8 left-0" src={icons8_menu}/>
 		</div>
 	  </div>
 	</div>
   </div>
 
-  <div class="w-48 h-80 relative">
-	<div class="w-48 h-0 left-0 top-[207px] absolute origin-top-left -rotate-90 border-4 border-sky-950"></div>
-	<div class="w-2/5 h-96 left-[10px] top-0 absolute">
-	  <div class="w-2/5 h-80 left-0 top-0 absolute text-sky-950 text-[45px] font-semibold font-['Mada'] leading-[52px]">Connecting Businesses, Innovating Communications</div>
-	  <div class="w-[350px] left-0 top-[237px] absolute text-stone-950/opacity-60 text-base font-normal font-['Khula'] leading-tight">Provides a brief overview of the company's specialization in providing VoIP services to small and medium-sized businesses.</div>
+  <div class="w-1/3 h-64 relative">
+	<div class="w-1/3 h-32 space-x-4">
+	  <div class="w-48 h-0 top-[207px] absolute origin-top-left -rotate-90 border-4 border-sky-950"></div>
+	  <div class="w-1/3 h-32 absolute text-sky-950 text-5xl font-semibold leading-tight">Connecting Businesses, Innovating Communications</div>
+	  <div class="w-[350px] top-[237px] absolute text-stone-950/opacity-60 text-base font-normal leading-tight">Provides a brief overview of the company's specialization in providing VoIP services to small and medium-sized businesses.</div>
 	</div>
   </div>
-  <img class="w-96 h-[297px] relative" src={smartmockups} />  
+  <img class="w-96 h-[297px] relative" src={smartmockups} />   
 
 
   <div class="w-[390px] h-[412px] px-[125px] py-5 bg-white rounded-3xl flex-col justify-center items-center gap-[60px] inline-flex">
