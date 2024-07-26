@@ -11,7 +11,7 @@
 	import { Input, Label, Helper } from 'flowbite-svelte'
 </script>
 
-  <div class="w-2/5 h-32 p-5 bg-white rounded-bl-3xl rounded-br-3xl justify-between items-end inline-flex">
+  <div class="w-full h-32 p-5 bg-white rounded-bl-3xl rounded-br-3xl justify-between items-end inline-flex">
 	<img alt="The project logo" src={newlogo} />
 	<div class="h-24 justify-end items-center flex">
 	  <div class="text-center text-sky-950 text-xl font-semibold font-variant-numeric:lining-nums leading-6 tracking-wide">1.000.000.000</div>
@@ -27,7 +27,7 @@
   <div class="w-1/3 h-64 relative">
 	<div class="w-1/3 h-32 space-x-4">
 	  <div class="w-48 h-0 top-[207px] absolute origin-top-left -rotate-90 border-4 border-sky-950"></div>
-	  <div class="w-1/3 h-32 absolute text-sky-950 text-5xl font-semibold leading-tight">Connecting Businesses, Innovating Communications</div>
+	  <div class="w-1/3 h-32 absolute text-sky-950 text-4xl font-semibold leading-tight">Connecting Businesses, Innovating Communications</div>
 	  <div class="w-[350px] top-[237px] absolute text-stone-950/opacity-60 text-base font-normal leading-tight">Provides a brief overview of the company's specialization in providing VoIP services to small and medium-sized businesses.</div>
 	</div>
   </div>
