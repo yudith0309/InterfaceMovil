@@ -38,41 +38,41 @@
 
 
   <div class="w-full flex-col justify-between items-center gap-2.5 inline-flex">
-  <div class="w-96 h-96 py-5 bg-white rounded-3xl flex-col justify-center items-center gap-4 inline-flex">
+  <div class="w-96 h-96 py-5 bg-white rounded-3xl flex-col justify-center items-center gap-6 inline-flex">
 	<div class="w-5/6 h-20 relative">
 	  <div class="w-80 h-20 left-0 top-0 relative text-center text-sky-950 text-3xl font-semibold leading-7">Everything you can do with Towitlinks</div>
 	  <img class="w-32 h-1.5 left-20 top-0 relative" src={line} />
 	</div> 	
-	<div class="w-96 h-80 relative">
+	<div class="w-96 h-60 relative">
 	  <img class="w-10 h-10 left-40 top-5 relative" src={icons8_phone} />
 	  <div class="w-96 h-80 left-0 top-[80px] absolute flex-col justify-start items-center inline-flex">
 		<div class="self-stretch text-center text-sky-950 text-2xl font-semibold leading-7">VoIP Calls</div>
-		<div class="w-80 h-10 relative text-center text-sky-950/opacity-60 text-xl font-normal leading-7">Make and receive calls from anywhere, anytime, with crystal-clear quality and cost-effective pricing.</div>
+		<div class="w-80 h-10 relative text-center text-sky-950/opacity-60 text-lg font-normal leading-7">Make and receive calls from anywhere, anytime, with crystal-clear quality and cost-effective pricing.</div>
 	  </div>
 	</div>
   </div>
 
-  <div class="w-full h-80 relative py-5 bg-white rounded-3xl flex-col justify-center items-center gap-4 inline-flex">
+  <div class="w-full h-64 relative py-5 bg-white rounded-3xl flex-col justify-center items-center gap-6 inline-flex">
 	<img class="w-10 h-10 left-0 top-0 relative" src={icons8_phone_2} />
 	<div class="w-96 h-40 left-0 flex-col justify-start items-center flex inline-flex">
 	  <div class="self-stretch text-center text-sky-950 text-2xl font-semibold leading-7">Text & Fax</div>
-	  <div class="w-80 h-10 relative text-center text-sky-950/opacity-60 text-xl font-normal leading-7">Stay connected with colleagues, partners, and clients through integrated text and fax services, eliminating the need for separate devices.</div>
+	  <div class="w-80 h-10 relative text-center text-sky-950/opacity-60 text-lg font-normal leading-7">Stay connected with colleagues, partners, and clients through integrated text and fax services, eliminating the need for separate devices.</div>
 	</div>
   </div>
 
-  <div class="w-full h-80 relative py-5 bg-white rounded-3xl flex-col justify-center items-center gap-4 inline-flex">
+  <div class="w-full h-60 relative py-5 bg-white rounded-3xl flex-col justify-center items-center gap-6 inline-flex">
 	<img class="w-10 h-10 left-0 top-0 relative" src={icons8_phone_256} />
 	<div class="w-96 h-40 left-0 flex-col justify-start items-center flex">
 	  <div class="self-stretch text-center text-sky-950 text-2xl font-semibold leading-7">Task Manager</div>
-	  <div class="w-80 h-10 relative text-center text-sky-950/opacity-60 text-xl font-normal leading-7">Organize your workload, track progress, and collaborate effectively with our intuitive task manager.</div>
+	  <div class="w-80 h-10 relative text-center text-sky-950/opacity-60 text-lg font-normal leading-7">Organize your workload, track progress, and collaborate effectively with our intuitive task manager.</div>
 	</div>
   </div>
 
-  <div class="w-full h-80 relative py-5 bg-white rounded-3xl flex-col justify-center items-center gap-4 inline-flex">
+  <div class="w-full h-60 relative py-5 bg-white rounded-3xl flex-col justify-center items-center gap-6 inline-flex">
 	<img class="w-10 h-10 left-0 top-0 relative" src={icons8_call} />
 	<div class="w-96 h-44 left-0 flex-col justify-start items-center flex">		
 	  <div class= "self-stretch text-center text-sky-950 text-2xl font-semibold leading-7 ">Video Call</div>
-	  <div class="w-80 h-10 relative text-center text-sky-950/opacity-60 text-xl font-normal leading-7">Host clear, engaging video conferences with screen sharing, fostering stronger relationships and enhancing communication.</div>	
+	  <div class="w-80 h-10 relative text-center text-sky-950/opacity-60 text-lg font-normal leading-7">Host clear, engaging video conferences with screen sharing, fostering stronger relationships and enhancing communication.</div>	
 	</div>
    </div>
   </div>
