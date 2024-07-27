@@ -275,7 +275,7 @@
       <div
         class="text-center text-[#ebfeff] text-[26px] font-semibold font-['Khula'] leading-[38px] tracking-[2.60px]"
       >
-        Trusted By 200k+  Business
+        Trusted By 200k+ Business
       </div>
     </div>
   </div>
