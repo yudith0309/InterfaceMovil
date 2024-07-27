@@ -1,13 +1,4 @@
 <script>
-  import newlogo from "$lib/imagesprop/newlogo.png";
-  import icons8 from "$lib/imagesprop/icons8.png";
-  import icons8_menu from "$lib/imagesprop/icons8_menu.png";
-  import smartmockups from "$lib/imagesprop/smartmockups.png";
-  import icons8_phone from "$lib/imagesprop/icons8_phone.png";
-  import icons8_phone_2 from "$lib/imagesprop/icons8_phone_2.png";
-  import icons8_phone_256 from "$lib/imagesprop/icons8_phone_256.png";
-  import icons8_call from "$lib/imagesprop/icons8_call.png";
-  import line from "$lib/imagesprop/line6.png";
   import { Button } from "flowbite-svelte";
   import { Input, Label, Helper } from "flowbite-svelte";
 </script>
@@ -17,7 +8,7 @@
     <div
       class="w-full h-32 p-5 bg-white rounded-bl-3xl rounded-br-3xl justify-between items-end inline-flex"
     >
-      <img alt="The project logo" src={newlogo} />
+      <img alt="The project logo" src="images/newlogo.png" />
       <div class="h-24 justify-end items-center flex">
         <div
           class="text-center text-sky-950 text-xl font-semibold font-variant-numeric:lining-nums leading-6 tracking-wide"
@@ -25,9 +16,9 @@
           1.000.000.000
         </div>
         <div class="justify-start items-center gap-2.5 flex">
-          <img class="w-8 h-8" src={icons8} />
+          <img class="w-8 h-8" src="images/icons8.png" />
           <div class="w-8 h-8 relative">
-            <img class="w-8 h-8 left-0" src={icons8_menu} />
+            <img class="w-8 h-8 left-0" src="images/icons8_menu.png" />
           </div>
         </div>
       </div>
@@ -51,7 +42,7 @@
         </div>
       </div>
     </div>
-    <img class="object-contain max-w-80 h-64" src={smartmockups} />
+    <img class="object-contain max-w-80 h-64" src="images/smartmockups.png" />
 
     <div
       class="w-full flex-col justify-between items-center gap-2.5 inline-flex"
@@ -65,10 +56,16 @@
           >
             Everything you can do with Towitlinks
           </div>
-          <img class="w-32 h-1.5 left-20 top-0 relative" src={line} />
+          <img
+            class="w-32 h-1.5 left-20 top-2.5 relative"
+            src="images/line6.png"
+          />
         </div>
         <div class="w-96 h-60 relative">
-          <img class="w-10 h-10 left-40 top-5 relative" src={icons8_phone} />
+          <img
+            class="w-10 h-10 left-40 top-5 relative"
+            src="images/icons8_phone.png"
+          />
           <div
             class="w-96 h-80 left-0 top-[80px] absolute flex-col justify-start items-center inline-flex"
           >
@@ -90,7 +87,10 @@
       <div
         class="w-full h-64 relative py-5 bg-white rounded-3xl flex-col justify-center items-center gap-6 inline-flex"
       >
-        <img class="w-10 h-10 left-0 top-0 relative" src={icons8_phone_2} />
+        <img
+          class="w-10 h-10 left-0 top-0 relative"
+          src="images/icons8_phone_2.png"
+        />
         <div
           class="w-96 h-40 left-0 flex-col justify-start items-center flex inline-flex"
         >
@@ -112,7 +112,10 @@
       <div
         class="w-full h-60 relative py-5 bg-white rounded-3xl flex-col justify-center items-center gap-6 inline-flex"
       >
-        <img class="w-10 h-10 left-0 top-0 relative" src={icons8_phone_256} />
+        <img
+          class="w-10 h-10 left-0 top-0 relative"
+          src="images/icons8_phone_256.png"
+        />
         <div class="w-96 h-40 left-0 flex-col justify-start items-center flex">
           <div
             class="self-stretch text-center text-sky-950 text-2xl font-semibold leading-7"
@@ -131,7 +134,10 @@
       <div
         class="w-full h-60 relative py-5 bg-white rounded-3xl flex-col justify-center items-center gap-6 inline-flex"
       >
-        <img class="w-10 h-10 left-0 top-0 relative" src={icons8_call} />
+        <img
+          class="w-10 h-10 left-0 top-0 relative"
+          src="images/icons8_call.png"
+        />
         <div class="w-96 h-44 left-0 flex-col justify-start items-center flex">
           <div
             class="self-stretch text-center text-sky-950 text-2xl font-semibold leading-7"
@@ -149,7 +155,7 @@
     </div>
 
     <div
-      class="w-[310px] h-[696px] p-5 bg-white rounded-3xl shadow flex-col justify-center items-center gap-[25px] inline-flex"
+      class="w-72 h-5/6 p-5 bg-white rounded-3xl shadow flex-col justify-center items-center gap-4 inline-flex"
     >
       <div
         class="text-[#052f47]/60 text-base font-normal font-['Khula'] leading-[31px]"
@@ -185,7 +191,7 @@
           </div>
           <img
             class="w-[31px] h-6 left-[36px] top-0 absolute"
-            src="https://via.placeholder.com/31x24"
+            src="images/icons8_expand.png"
           />
         </div>
         <div
@@ -209,7 +215,7 @@
             >Select</span
           >
         </div>
-        <img class="w-[31px] h-6" src="https://via.placeholder.com/31x24" />
+        <img class="w-[31px] h-6" src="images/icons8_expand.png" />
       </div>
       <div
         class="self-stretch h-[50px] px-5 py-2.5 bg-white rounded-2xl border border-[#052f47] justify-between items-center inline-flex"
@@ -226,7 +232,7 @@
             >Select</span
           >
         </div>
-        <img class="w-[31px] h-6" src="https://via.placeholder.com/31x24" />
+        <img class="w-[31px] h-6" src="images/icons8_expand.png" />
       </div>
       <div
         class="self-stretch h-[50px] px-5 py-2.5 bg-white rounded-2xl border border-[#052f47] justify-between items-center inline-flex"
@@ -243,7 +249,7 @@
             >Select</span
           >
         </div>
-        <img class="w-[31px] h-6" src="https://via.placeholder.com/31x24" />
+        <img class="w-[31px] h-6" src="images/icons8_expand.png" />
       </div>
       <div class="h-[150px] flex-col justify-start items-center gap-2.5 flex">
         <div
@@ -270,12 +276,306 @@
     </div>
 
     <div
-      class="h-[117px] px-[25px] py-2.5 bg-[#20ccf8] flex-col justify-center items-center gap-5 inline-flex"
+      class="w-full h-[117px] px-[25px] py-2.5 bg-[#20ccf8] flex-col justify-center items-center gap-5 inline-flex"
     >
       <div
         class="text-center text-[#ebfeff] text-[26px] font-semibold font-['Khula'] leading-[38px] tracking-[2.60px]"
       >
         Trusted By 200k+ Business
+      </div>
+    </div>
+  </div>
+
+  <div
+    class="w-full h-5/6 bg-white rounded-3xl flex-col justify-start items-center gap-4 inline-flex"
+  >
+    <div class="h-[66px] justify-center items-center inline-flex">
+      <div
+        class="w-[348px] text-center text-[#052f47] text-[40px] font-semibold font-['Mada'] leading-[50px]"
+      >
+        Why Towitlinks?
+      </div>
+    </div>
+    <div class="self-stretch p-5 justify-start items-start gap-5 inline-flex">
+      <div class="justify-start items-start gap-5 flex">
+        <img class="w-[60px] h-[60px]" src="images/icons8_p.png" />
+        <div class="w-[263px] flex-col justify-start items-center inline-flex">
+          <div
+            class="self-stretch text-[#052f47] text-[26px] font-semibold font-['Khula'] leading-[38px]"
+          >
+            Unmatched Reliability
+          </div>
+          <div
+            class="self-stretch text-[#052f47]/60 text-xl font-normal font-['Khula'] leading-[31px]"
+          >
+            We prioritize uptime and security, ensuring your communication is
+            always accessible and your data is safe.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="self-stretch p-5 justify-start items-start gap-5 inline-flex">
+      <div class="justify-start items-start gap-5 flex">
+        <img class="w-[60px] h-[60px]" src="images/icons8_p2.png" />
+        <div class="w-[263px] flex-col justify-start items-center inline-flex">
+          <div
+            class="self-stretch text-[#052f47] text-[26px] font-semibold font-['Khula'] leading-[38px]"
+          >
+            Seamless Integration
+          </div>
+          <div
+            class="self-stretch text-[#052f47]/60 text-xl font-normal font-['Khula'] leading-[31px]"
+          >
+            Our platform integrates seamlessly with existing systems, minimizing
+            disruption and maximizing user-friendliness.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="self-stretch p-5 justify-start items-start gap-5 inline-flex">
+      <div class="justify-start items-start gap-5 flex">
+        <img
+          class="w-[60px] h-[60px]"
+          src="https://via.placeholder.com/60x60"
+        />
+        <div class="w-[263px] flex-col justify-start items-center inline-flex">
+          <div
+            class="self-stretch text-[#052f47] text-[26px] font-semibold font-['Khula'] leading-[38px]"
+          >
+            Affordable Pricing
+          </div>
+          <div
+            class="self-stretch text-[#052f47]/60 text-xl font-normal font-['Khula'] leading-[31px]"
+          >
+            We offer competitive pricing plans tailored to your specific needs,
+            helping you save on communication costs without sacrificing quality.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="self-stretch p-5 justify-start items-start gap-5 inline-flex">
+      <div class="justify-start items-start gap-5 flex">
+        <img
+          class="w-[60px] h-[60px]"
+          src="https://via.placeholder.com/60x60"
+        />
+        <div class="w-[263px] flex-col justify-start items-center inline-flex">
+          <div
+            class="self-stretch text-[#052f47] text-[26px] font-semibold font-['Khula'] leading-[38px]"
+          >
+            Exceptional Support
+          </div>
+          <div
+            class="self-stretch text-[#052f47]/60 text-xl font-normal font-['Khula'] leading-[31px]"
+          >
+            Our dedicated customer support team is available 24/7 to address
+            your questions and ensure a smooth experience.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="self-stretch p-5 justify-start items-start gap-5 inline-flex">
+      <div class="justify-start items-start gap-5 flex">
+        <img
+          class="w-[60px] h-[60px]"
+          src="https://via.placeholder.com/60x60"
+        />
+        <div class="w-[263px] flex-col justify-start items-center inline-flex">
+          <div
+            class="self-stretch text-[#052f47] text-[26px] font-semibold font-['Khula'] leading-[38px]"
+          >
+            Cutting-Edge Technology
+          </div>
+          <div
+            class="self-stretch text-[#052f47]/60 text-xl font-normal font-['Khula'] leading-[31px]"
+          >
+            We constantly invest in the latest technology to provide you with
+            the most advanced and efficient communication tools available.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <img class="w-[346px] h-[712px] rounded-[50px]" src="images/smart.png" />
+
+  <div
+    class="w-full h-5/6 py-5 bg-white rounded-3xl flex-col justify-center items-center gap-[5px] inline-flex"
+  >
+    <div class="h-[100px] justify-center items-center inline-flex">
+      <div
+        class="w-[348px] text-center text-[#052f47] text-[40px] font-semibold font-['Mada'] leading-[50px]"
+      >
+        Easy Setup
+      </div>
+    </div>
+    <div
+      class="self-stretch px-5 pt-2.5 justify-end items-end gap-2.5 inline-flex"
+    >
+      <div
+        class="w-[310px] flex-col justify-start items-start gap-5 inline-flex"
+      >
+        <img
+          class="w-[60px] h-[60px]"
+          src="https://via.placeholder.com/60x60"
+        />
+      </div>
+      <div class="w-[310px] flex-col justify-start items-center inline-flex">
+        <div
+          class="self-stretch text-[#052f47] text-[26px] font-semibold font-['Khula'] leading-[38px]"
+        >
+          Sign Up
+        </div>
+        <div
+          class="self-stretch text-[#052f47]/60 text-xl font-normal font-['Khula'] leading-[31px]"
+        >
+          Create a free account on our website. It only takes a minute and
+          you'll gain access to all the features you need to get started.
+        </div>
+      </div>
+      <div
+        class="text-[#f46d1b] text-xl font-bold font-['Khula'] leading-[31px]"
+      >
+        1
+      </div>
+    </div>
+    <div
+      class="self-stretch px-5 pt-2.5 bg-[#d8d8d8]/20 justify-end items-end gap-2.5 inline-flex"
+    >
+      <div
+        class="w-[310px] flex-col justify-start items-start gap-5 inline-flex"
+      >
+        <img
+          class="w-[60px] h-[60px]"
+          src="https://via.placeholder.com/60x60"
+        />
+      </div>
+      <div class="w-[310px] flex-col justify-start items-center inline-flex">
+        <div
+          class="self-stretch text-[#052f47] text-[26px] font-semibold font-['Khula'] leading-[38px]"
+        >
+          Explore & Customize
+        </div>
+        <div
+          class="self-stretch text-[#052f47]/60 text-xl font-normal font-['Khula'] leading-[31px]"
+        >
+          Familiarize yourself with our platform and personalize your settings
+          to fit your specific business needs.
+        </div>
+      </div>
+      <div
+        class="text-[#f46d1b] text-xl font-bold font-['Khula'] leading-[31px]"
+      >
+        2
+      </div>
+    </div>
+    <div
+      class="self-stretch px-5 pt-2.5 justify-end items-end gap-2.5 inline-flex"
+    >
+      <div
+        class="w-[310px] flex-col justify-start items-start gap-5 inline-flex"
+      >
+        <img
+          class="w-[60px] h-[60px]"
+          src="https://via.placeholder.com/60x60"
+        />
+      </div>
+      <div class="w-[310px] flex-col justify-start items-center inline-flex">
+        <div
+          class="self-stretch text-[#052f47] text-[26px] font-semibold font-['Khula'] leading-[38px]"
+        >
+          Connect & Communicate
+        </div>
+        <div
+          class="self-stretch text-[#052f47]/60 text-xl font-normal font-['Khula'] leading-[31px]"
+        >
+          Start making calls, sending texts and faxes, and managing tasks with
+          your team. We're here to support you every step of the way.
+        </div>
+      </div>
+      <div
+        class="text-[#f46d1b] text-xl font-bold font-['Khula'] leading-[31px]"
+      >
+        3
+      </div>
+    </div>
+  </div>
+
+  <div
+    class="w-full h-5/6 p-2.5 flex-col justify-center items-center gap-2.5 inline-flex"
+  >
+    <div
+      class="w-[367px] h-[168px] text-center text-black text-[45px] font-semibold font-['Mada'] leading-[52px]"
+    >
+      FAQs about VoIP services
+    </div>
+    <div class="w-[350px] h-[145px] relative">
+      <div
+        class="w-[350px] h-[114px] px-5 pt-[30px] pb-5 left-0 top-[31px] absolute bg-[#f4f4f4] rounded-bl-2xl rounded-br-2xl justify-center items-center gap-2.5 inline-flex"
+      >
+        <div
+          class="w-[310px] text-[#052f47]/60 text-sm font-normal font-['Khula'] leading-none"
+        >
+          This is a fundamental question you should definitely address. Explain
+          in simple terms what VoIP is: voice over internet protocol. How it
+          uses the internet to make calls, and how it differs from traditional
+          phone lines.
+        </div>
+      </div>
+      <div
+        class="w-[350px] h-[55px] px-5 left-0 top-0 absolute bg-white rounded-2xl justify-between items-center inline-flex"
+      >
+        <div
+          class="w-[137px] h-[49px] text-[#052f47] text-xl font-normal font-['Khula'] leading-[31px]"
+        >
+          What is VoIP?
+        </div>
+        <img
+          class="w-[31px] h-6 origin-top-left -rotate-180"
+          src="https://via.placeholder.com/31x24"
+        />
+      </div>
+    </div>
+    <div class="justify-start items-start inline-flex">
+      <div class="h-[55px] justify-start items-start flex">
+        <div
+          class="w-[350px] h-[55px] px-5 py-2.5 bg-white rounded-2xl justify-between items-center flex"
+        >
+          <div
+            class="text-[#052f47] text-xl font-normal font-['Khula'] leading-[31px]"
+          >
+            How does VoIP work?
+          </div>
+          <img class="w-[31px] h-6" src="https://via.placeholder.com/31x24" />
+        </div>
+      </div>
+    </div>
+    <div class="justify-start items-start inline-flex">
+      <div class="h-[55px] justify-start items-start flex">
+        <div
+          class="w-[350px] h-[55px] px-5 py-2.5 bg-white rounded-2xl justify-between items-center flex"
+        >
+          <div
+            class="text-[#052f47] text-xl font-normal font-['Khula'] leading-[31px]"
+          >
+            Is VoIP secure?
+          </div>
+          <img class="w-[31px] h-6" src="https://via.placeholder.com/31x24" />
+        </div>
+      </div>
+    </div>
+    <div class="justify-start items-start inline-flex">
+      <div class="h-[55px] justify-start items-start flex">
+        <div
+          class="w-[350px] h-[55px] px-5 py-2.5 bg-white rounded-2xl justify-between items-center flex"
+        >
+          <div
+            class="text-[#052f47] text-xl font-normal font-['Khula'] leading-[31px]"
+          >
+            Who can benefit from using VoIP?
+          </div>
+          <img class="w-[31px] h-6" src="https://via.placeholder.com/31x24" />
+        </div>
       </div>
     </div>
   </div>
