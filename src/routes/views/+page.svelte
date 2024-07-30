@@ -154,9 +154,7 @@
     <div
       class="w-72 h-3/6 p-5 bg-white rounded-3xl shadow flex-col justify-center items-center gap-4 inline-flex"
     >
-      <div
-        class="text-[#052f47]/60 text-base font-normal font-['Khula'] leading-[31px]"
-      >
+      <div class="text-[#052f47]/60 text-base font-normal leading-6">
         GET YOUR FREE QUOTE NOW
       </div>
       <div
@@ -284,26 +282,26 @@
   </div>
 
   <div
-    class="w-full h-5/6 bg-white rounded-3xl flex-col justify-start items-center gap-4 inline-flex"
+    class="w-96 h-5/6 bg-white rounded-3xl flex-col justify-start items-center gap-2 inline-flex"
   >
     <div class="h-16 justify-center items-center inline-flex">
       <div
-        class="w-[348px] text-center text-[#052f47] text-[40px] font-semibold font-['Mada'] leading-[50px]"
+        class="w-80 text-center text-[#052f47] text-3xl font-semibold leading-6"
       >
         Why Towitlinks?
       </div>
     </div>
     <div class="self-stretch p-5 justify-start items-start gap-5 inline-flex">
       <div class="justify-start items-start gap-5 flex">
-        <img class="w-[60px] h-[60px]" src="images/icons8_p.png" />
-        <div class="w-[263px] flex-col justify-start items-center inline-flex">
+        <img class="w-14 h-14" src="images/icons8_p.png" />
+        <div class="w-72 flex-col justify-start items-center inline-flex">
           <div
-            class="self-stretch text-[#052f47] text-[26px] font-semibold font-['Khula'] leading-[38px]"
+            class="self-stretch text-[#052f47] text-xl font-semibold leading-6"
           >
             Unmatched Reliability
           </div>
           <div
-            class="self-stretch text-[#052f47]/60 text-xl font-normal font-['Khula'] leading-[31px]"
+            class="self-stretch text-[#052f47]/60 text-xl font-normal leading-8"
           >
             We prioritize uptime and security, ensuring your communication is
             always accessible and your data is safe.
@@ -313,15 +311,15 @@
     </div>
     <div class="self-stretch p-5 justify-start items-start gap-5 inline-flex">
       <div class="justify-start items-start gap-5 flex">
-        <img class="w-[60px] h-[60px]" src="images/icons8_p2.png" />
-        <div class="w-[263px] flex-col justify-start items-center inline-flex">
+        <img class="w-14 h-14" src="images/icons8_p2.png" />
+        <div class="w-72 flex-col justify-start items-center inline-flex">
           <div
-            class="self-stretch text-[#052f47] text-[26px] font-semibold font-['Khula'] leading-[38px]"
+            class="self-stretch text-[#052f47] text-xl font-semibold leading-6"
           >
             Seamless Integration
           </div>
           <div
-            class="self-stretch text-[#052f47]/60 text-xl font-normal font-['Khula'] leading-[31px]"
+            class="self-stretch text-[#052f47]/60 text-xl font-normal leading-8"
           >
             Our platform integrates seamlessly with existing systems, minimizing
             disruption and maximizing user-friendliness.
@@ -331,15 +329,15 @@
     </div>
     <div class="self-stretch p-5 justify-start items-start gap-5 inline-flex">
       <div class="justify-start items-start gap-5 flex">
-        <img class="w-[60px] h-[60px]" src="images/icons825.png" />
-        <div class="w-[263px] flex-col justify-start items-center inline-flex">
+        <img class="w-14 h-14" src="images/icons825.png" />
+        <div class="w-72 flex-col justify-start items-center inline-flex">
           <div
-            class="self-stretch text-[#052f47] text-[26px] font-semibold font-['Khula'] leading-[38px]"
+            class="self-stretch text-[#052f47] text-xl font-semibold leading-6"
           >
             Affordable Pricing
           </div>
           <div
-            class="self-stretch text-[#052f47]/60 text-xl font-normal font-['Khula'] leading-[31px]"
+            class="self-stretch text-[#052f47]/60 text-xl font-normal leading-8"
           >
             We offer competitive pricing plans tailored to your specific needs,
             helping you save on communication costs without sacrificing quality.
@@ -349,15 +347,15 @@
     </div>
     <div class="self-stretch p-5 justify-start items-start gap-5 inline-flex">
       <div class="justify-start items-start gap-5 flex">
-        <img class="w-[60px] h-[60px]" src="images/icons822.png" />
-        <div class="w-[263px] flex-col justify-start items-center inline-flex">
+        <img class="w-14 h-14" src="images/icons822.png" />
+        <div class="w-72 flex-col justify-start items-center inline-flex">
           <div
-            class="self-stretch text-[#052f47] text-[26px] font-semibold font-['Khula'] leading-[38px]"
+            class="self-stretch text-[#052f47] text-xl font-semibold leading-6"
           >
             Exceptional Support
           </div>
           <div
-            class="self-stretch text-[#052f47]/60 text-xl font-normal font-['Khula'] leading-[31px]"
+            class="self-stretch text-[#052f47]/60 text-xl font-normal leading-8"
           >
             Our dedicated customer support team is available 24/7 to address
             your questions and ensure a smooth experience.
@@ -367,15 +365,15 @@
     </div>
     <div class="self-stretch p-5 justify-start items-start gap-5 inline-flex">
       <div class="justify-start items-start gap-5 flex">
-        <img class="w-[60px] h-[60px]" src="images/icons8222.png" />
-        <div class="w-[263px] flex-col justify-start items-center inline-flex">
+        <img class="w-w-14 h-14" src="images/icons8222.png" />
+        <div class="w-72 flex-col justify-start items-center inline-flex">
           <div
-            class="self-stretch text-[#052f47] text-[26px] font-semibold font-['Khula'] leading-[38px]"
+            class="self-stretch text-[#052f47] text-xl font-semibold leading-6"
           >
             Cutting-Edge Technology
           </div>
           <div
-            class="self-stretch text-[#052f47]/60 text-xl font-normal font-['Khula'] leading-[31px]"
+            class="self-stretch text-[#052f47]/60 text-xl font-normal leading-8"
           >
             We constantly invest in the latest technology to provide you with
             the most advanced and efficient communication tools available.
@@ -385,77 +383,65 @@
     </div>
   </div>
 
-  <img class="w-[346px] h-[712px] rounded-[50px]" src="images/smart.png" />
+  <img class="w-80 h-5/6 rounded-3xl" src="images/smart.png" />
 
   <div
-    class="w-full h-5/6 py-5 bg-white rounded-3xl flex-col justify-center items-center gap-[5px] inline-flex"
+    class="w-80 h-5/6 py-5 bg-white rounded-3xl flex-col justify-center items-center gap-5 inline-flex"
   >
-    <div class="h-[100px] justify-center items-center inline-flex">
+    <div class="h-20 justify-center items-center inline-flex">
       <div
-        class="w-[348px] text-center text-[#052f47] text-[40px] font-semibold font-['Mada'] leading-[50px]"
+        class="w-80 text-center text-[#052f47] text-4xl font-semibold leading-8"
       >
         Easy Setup
       </div>
     </div>
-    <div class="w-[310px] flex-col justify-start items-start gap-5 inline-flex">
-      <img class="w-[60px] h-[60px]" src="images/icons82562.png" />
+
+    <div class="w-64 flex-col justify-start items-start gap-5 inline-flex">
+      <img class="w-14 h-14" src="images/icons82562.png" />
     </div>
-    <div class="w-[310px] flex-col justify-start items-center inline-flex">
-      <div
-        class="self-stretch text-[#052f47] text-[26px] font-semibold font-['Khula'] leading-[38px]"
-      >
+    <div class="w-64 flex-col justify-start items-center inline-flex">
+      <div class="self-stretch text-[#052f47] text-xl font-semibold leading-6">
         Sign Up
       </div>
-      <div
-        class="self-stretch text-[#052f47]/60 text-xl font-normal font-['Khula'] leading-[31px]"
-      >
+      <div class="self-stretch text-[#052f47]/60 text-lg font-normal leading-6">
         Create a free account on our website. It only takes a minute and you'll
         gain access to all the features you need to get started.
       </div>
     </div>
-    <div class="text-[#f46d1b] text-xl font-bold font-['Khula'] leading-[31px]">
-      1
+    <div class="w-64 flex-col justify-end items-end inline-flex">
+      <div class="text-[#f46d1b] text-xl font-bold leading-3">1</div>
     </div>
-    <div class="w-[310px] flex-col justify-start items-start gap-5 inline-flex">
-      <img class="w-[60px] h-[60px]" src="images/icons8_p22.png" />
+    <div class="w-64 flex-col justify-start items-start gap-5 inline-flex">
+      <img class="w-14 h-14" src="images/icons8_p22.png" />
     </div>
-    <div class="w-[310px] flex-col justify-start items-center inline-flex">
-      <div
-        class="self-stretch text-[#052f47] text-[26px] font-semibold font-['Khula'] leading-[38px]"
-      >
+    <div class="w-64 flex-col justify-start items-center inline-flex">
+      <div class="self-stretch text-[#052f47] text-xl font-semibold leading-6">
         Explore & Customize
       </div>
-      <div
-        class="self-stretch text-[#052f47]/60 text-xl font-normal font-['Khula'] leading-[31px]"
-      >
+      <div class="self-stretch text-[#052f47]/60 text-lg font-normal leading-6">
         Familiarize yourself with our platform and personalize your settings to
         fit your specific business needs.
       </div>
     </div>
-    <div class="text-[#f46d1b] text-xl font-bold font-['Khula'] leading-[31px]">
-      2
+    <div class="w-64 flex-col justify-end items-end inline-flex">
+      <div class="text-[#f46d1b] text-xl font-bold leading-3">2</div>
     </div>
-    <div class="w-[310px] flex-col justify-start items-start gap-5 inline-flex">
-      <img class="w-[60px] h-[60px]" src="images/icons8_ph22.png" />
+    <div class="w-64 flex-col justify-start items-start gap-5 inline-flex">
+      <img class="w-14 h-14" src="images/icons8_ph22.png" />
     </div>
-    <div class="w-[310px] flex-col justify-start items-center inline-flex">
-      <div
-        class="self-stretch text-[#052f47] text-[26px] font-semibold font-['Khula'] leading-[38px]"
-      >
+    <div class="w-64 flex-col justify-start items-center inline-flex">
+      <div class="self-stretch text-[#052f47] text-xl font-semibold leading-6">
         Connect & Communicate
       </div>
-      <div
-        class="self-stretch text-[#052f47]/60 text-xl font-normal font-['Khula'] leading-[31px]"
-      >
+      <div class="self-stretch text-[#052f47]/60 text-xl font-normal leading-6">
         Start making calls, sending texts and faxes, and managing tasks with
         your team. We're here to support you every step of the way.
       </div>
     </div>
-    <div class="text-[#f46d1b] text-xl font-bold font-['Khula'] leading-[31px]">
-      3
+    <div class="w-64 flex-col justify-end items-end inline-flex">
+      <div class="text-[#f46d1b] text-xl font-bold leading-3">3</div>
     </div>
   </div>
-
   <div
     class="w-full h-5/6 p-2.5 flex-col justify-center items-center gap-2.5 inline-flex"
   >
