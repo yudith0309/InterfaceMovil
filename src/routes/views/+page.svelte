@@ -11,7 +11,7 @@
       <img alt="The project logo" src="images/newlogo.png" />
       <div class="h-24 justify-end items-center flex">
         <div
-          class="text-center text-sky-950 text-xl font-semibold font-variant-numeric:lining-nums leading-6 tracking-wide"
+          class="text-center text-[#052f47] text-xl font-semibold font-variant-numeric:lining-nums leading-6 tracking-wide"
         >
           1.000.000.000
         </div>
@@ -27,15 +27,15 @@
     <div class="w-full h-64 relative inline-flex">
       <div class="w-1/3 h-32 space-x-4">
         <div
-          class="w-48 h-0 top-[207px] absolute origin-top-left -rotate-90 border-4 border-sky-950"
+          class="w-48 h-0 top-[207px] absolute origin-top-left -rotate-90 border-4 border-[#052f47]"
         ></div>
         <div
-          class="w-1/3 h-32 relative text-sky-950 text-4xl font-semibold leading-tight"
+          class="w-1/3 h-32 relative text-[#052f47] text-4xl font-semibold leading-tight"
         >
           Connecting Businesses, Innovating Communications
         </div>
         <div
-          class="w-80 top-20 relative text-stone-950/opacity-60 text-base font-normal leading-tight"
+          class="w-80 top-20 relative text-[#111010]/60 text-base font-normal leading-tight"
         >
           Provides a brief overview of the company's specialization in providing
           VoIP services to small and medium-sized businesses.
@@ -50,16 +50,13 @@
       <div
         class="w-full h-96 py-5 bg-white rounded-3xl flex-col justify-center items-center gap-6 inline-flex"
       >
-        <div class="w-5/6 h-20 relative">
+        <div class="w-80 h-24 relative">
           <div
-            class="h-20 left-0 top-0 relative text-center text-sky-950 text-3xl font-semibold leading-7"
+            class="h-20 left-0 top-0 relative text-center text-[#052f47] text-3xl font-semibold leading-7"
           >
             Everything you can do with Towitlinks
           </div>
-          <img
-            class="w-32 h-1.5 left-20 top-2.5 relative"
-            src="images/line6.png"
-          />
+          <img class="w-32 h-1 left-20 top-0 relative" src="images/line6.png" />
         </div>
         <div class="w-96 h-60 relative">
           <img
@@ -70,12 +67,12 @@
             class="w-96 h-80 left-0 top-[80px] absolute flex-col justify-start items-center inline-flex"
           >
             <div
-              class="self-stretch text-center text-sky-950 text-2xl font-semibold leading-7"
+              class="self-stretch text-center text-[#052f47] text-2xl font-semibold leading-7"
             >
               VoIP Calls
             </div>
             <div
-              class="w-80 h-10 relative text-center text-sky-950/opacity-60 text-lg font-normal leading-7"
+              class="w-80 h-10 relative text-center text-[#052f47]/60 text-lg font-normal leading-7"
             >
               Make and receive calls from anywhere, anytime, with crystal-clear
               quality and cost-effective pricing.
@@ -95,12 +92,12 @@
           class="w-96 h-40 left-0 flex-col justify-start items-center flex inline-flex"
         >
           <div
-            class="self-stretch text-center text-sky-950 text-2xl font-semibold leading-7"
+            class="self-stretch text-center text-[#052f47] text-2xl font-semibold leading-7"
           >
             Text & Fax
           </div>
           <div
-            class="w-80 h-10 relative text-center text-sky-950/opacity-60 text-lg font-normal leading-7"
+            class="w-80 h-10 relative text-center text-[#052f47]/60 text-lg font-normal leading-7"
           >
             Stay connected with colleagues, partners, and clients through
             integrated text and fax services, eliminating the need for separate
@@ -118,12 +115,12 @@
         />
         <div class="w-96 h-40 left-0 flex-col justify-start items-center flex">
           <div
-            class="self-stretch text-center text-sky-950 text-2xl font-semibold leading-7"
+            class="self-stretch text-center text-[#052f47] text-2xl font-semibold leading-7"
           >
             Task Manager
           </div>
           <div
-            class="w-80 h-10 relative text-center text-sky-950/opacity-60 text-lg font-normal leading-7"
+            class="w-80 h-10 relative text-center text-[#052f47]/60 text-lg font-normal leading-7"
           >
             Organize your workload, track progress, and collaborate effectively
             with our intuitive task manager.
@@ -140,12 +137,12 @@
         />
         <div class="w-96 h-44 left-0 flex-col justify-start items-center flex">
           <div
-            class="self-stretch text-center text-sky-950 text-2xl font-semibold leading-7"
+            class="self-stretch text-center text-[#052f47] text-2xl font-semibold leading-7"
           >
             Video Call
           </div>
           <div
-            class="w-80 h-10 relative text-center text-sky-950/opacity-60 text-lg font-normal leading-7"
+            class="w-80 h-10 relative text-center text-[#052f47]/60 text-lg font-normal leading-7"
           >
             Host clear, engaging video conferences with screen sharing,
             fostering stronger relationships and enhancing communication.
@@ -155,7 +152,7 @@
     </div>
 
     <div
-      class="w-72 h-5/6 p-5 bg-white rounded-3xl shadow flex-col justify-center items-center gap-4 inline-flex"
+      class="w-72 h-3/6 p-5 bg-white rounded-3xl shadow flex-col justify-center items-center gap-4 inline-flex"
     >
       <div
         class="text-[#052f47]/60 text-base font-normal font-['Khula'] leading-[31px]"
@@ -255,7 +252,7 @@
         <div
           class="self-stretch h-20 p-4 bg-[#fdfcfb] rounded justify-start items-start gap-2 inline-flex"
         >
-          <div class="w-6 h-6 relative"></div>
+          <div class="w-2 h-6 relative"></div>
           <div
             class="grow shrink basis-0 text-[#052f47] text-base font-normal font-['Khula'] leading-tight"
           >
@@ -289,7 +286,7 @@
   <div
     class="w-full h-5/6 bg-white rounded-3xl flex-col justify-start items-center gap-4 inline-flex"
   >
-    <div class="h-[66px] justify-center items-center inline-flex">
+    <div class="h-16 justify-center items-center inline-flex">
       <div
         class="w-[348px] text-center text-[#052f47] text-[40px] font-semibold font-['Mada'] leading-[50px]"
       >
