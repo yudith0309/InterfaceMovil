@@ -443,97 +443,72 @@
     </div>
   </div>
   <div
-    class="w-full h-5/6 p-2.5 flex-col justify-center items-center gap-2.5 inline-flex"
+    class="w-full h-80 p-2.5 flex-col justify-center items-center gap-2.5 inline-flex"
   >
     <div
-      class="w-[367px] h-[168px] text-center text-black text-[45px] font-semibold font-['Mada'] leading-[52px]"
+      class="w-80 h-20 text-center text-black text-3xl font-semibold leading-8"
     >
       FAQs about VoIP services
     </div>
-    <div class="w-[350px] h-[145px] relative">
-      <div
-        class="w-[350px] h-[114px] px-5 pt-[30px] pb-5 left-0 top-[31px] absolute bg-[#f4f4f4] rounded-bl-2xl rounded-br-2xl justify-center items-center gap-2.5 inline-flex"
-      >
-        <div
-          class="w-[310px] text-[#052f47]/60 text-sm font-normal font-['Khula'] leading-none"
-        >
-          This is a fundamental question you should definitely address. Explain
-          in simple terms what VoIP is: voice over internet protocol. How it
-          uses the internet to make calls, and how it differs from traditional
-          phone lines.
-        </div>
+    <div
+      class="w-80 h-14 px-5 bg-white rounded-2xl justify-between items-center inline-flex"
+    >
+      <div class="w-80 h-5 text-[#052f47] text-xl font-normal leading-1">
+        What is VoIP?
       </div>
-      <div
-        class="w-[350px] h-10 px-5 left-0 top-0 relative bg-white rounded-2xl justify-between items-center inline-flex"
-      >
-        <div
-          class="w-[137px] h-[49px] text-[#052f47] text-xl font-normal font-['Khula'] leading-[31px]"
-        >
-          What is VoIP?
-        </div>
-        <img
-          class="w-[31px] h-6 origin-top-left -rotate-180"
-          src="https://via.placeholder.com/31x24"
-        />
+      <img
+        class="w-7 h-6 origin-top-left -rotate-0"
+        src="images/icons8_expand25.png"
+      />
+    </div>
+    <div
+      class="w-80 h-28 px-8 pt-0 pb-5 bg-[#f4f4f4] rounded-bl-2xl rounded-br-2xl justify-center items-center gap-2 inline-flex"
+    >
+      <div class="w-80 text-[#052f47]/60 text-sm font-normal leading-none">
+        This is a fundamental question you should definitely address. Explain in
+        simple terms what VoIP is: voice over internet protocol. How it uses the
+        internet to make calls, and how it differs from traditional phone lines.
       </div>
     </div>
-    <div class="justify-start items-start inline-flex">
-      <div class="h-[55px] justify-start items-start flex">
-        <div
-          class="w-[350px] h-[55px] px-5 py-2.5 bg-white rounded-2xl justify-between items-center flex"
-        >
-          <div
-            class="text-[#052f47] text-xl font-normal font-['Khula'] leading-[31px]"
-          >
-            How does VoIP work?
-          </div>
-          <img class="w-[31px] h-6" src="images/icons8_expand.png" />
-        </div>
+    <div
+      class="w-80 h-14 px-5 py-2.5 bg-white rounded-2xl justify-between items-center inline-flex"
+    >
+      <div class="text-[#052f47] text-xl font-normal leading-1">
+        How does VoIP work?
       </div>
-    </div>
-    <div class="justify-start items-start inline-flex">
-      <div class="h-[55px] justify-start items-start flex">
-        <div
-          class="w-[350px] h-[55px] px-5 py-2.5 bg-white rounded-2xl justify-between items-center flex"
-        >
-          <div
-            class="text-[#052f47] text-xl font-normal font-['Khula'] leading-[31px]"
-          >
-            Is VoIP secure?
-          </div>
-          <img class="w-[31px] h-6" src="images/icons8_expand.png" />
-        </div>
-      </div>
-    </div>
-    <div class="justify-start items-start inline-flex">
-      <div class="h-[55px] justify-start items-start flex">
-        <div
-          class="w-[350px] h-[55px] px-5 py-2.5 bg-white rounded-2xl justify-between items-center flex"
-        >
-          <div
-            class="text-[#052f47] text-xl font-normal font-['Khula'] leading-[31px]"
-          >
-            Who can benefit from using VoIP?
-          </div>
-          <img class="w-[31px] h-6" src="images/icons8_expand.png" />
-        </div>
-      </div>
+      <img class="w-7 h-6" src="images/icons8_expand.png" />
     </div>
   </div>
   <div
-    class="w-[220px] h-[60px] px-[55px] py-3.5 bg-[#f68737] rounded-2xl shadow justify-center items-center gap-2.5 inline-flex"
+    class="w-80 h-14 px-5 py-2.5 bg-white rounded-2xl justify-between items-center inline-flex"
+  >
+    <div class="text-[#052f47] text-xl font-normal leading-1">
+      Is VoIP secure?
+    </div>
+    <img class="w-7 h-6" src="images/icons8_expand.png" />
+  </div>
+  <div
+    class="w-80 h-14 px-5 py-2.5 bg-white rounded-2xl justify-between items-center inline-flex"
+  >
+    <div class="text-[#052f47] text-xl font-normal leading-1">
+      Who can benefit from using VoIP?
+    </div>
+    <img class="w-7 h-6" src="images/icons8_expand.png" />
+  </div>
+  <div
+    class="w-52 h-16 px-14 py-3.5 bg-[#f68737] rounded-2xl shadow justify-center items-center gap-2.5 inline-flex"
   >
     <div
-      class="w-[87px] h-[25px] text-white text-base font-normal font-['Khula'] leading-[31px] tracking-wide"
+      class="w-52 h-4 text-white text-base font-normal leading-3 tracking-wide"
     >
       Get started
     </div>
   </div>
 
   <div
-    class="h-[533px] p-5 bg-[#f9f5f5] flex-col justify-center items-center gap-2.5 inline-flex"
+    class="h-full p-5 bg-[#f9f5f5] flex-col justify-center items-center gap-2.5 inline-flex"
   >
-    <div class="h-[103px] flex-col justify-start items-center gap-2.5 flex">
+    <div class="h-16 flex-col justify-start items-center gap-2.5 flex">
       <div class="w-[129px] h-[31px] relative">
         <div class="w-[99px] left-[29px] top-[3px] absolute text-center">
           <span
@@ -563,25 +538,25 @@
       <div class="w-12 h-12 relative">
         <img
           class="w-12 h-12 left-0 top-0 absolute"
-          src="https://via.placeholder.com/48x48"
+          src="images/icons8YouTube.png"
         />
       </div>
       <div class="w-12 h-12 relative">
         <img
           class="w-12 h-12 left-0 top-0 absolute"
-          src="https://via.placeholder.com/48x48"
+          src="images/icons8instagram.png"
         />
       </div>
       <div class="w-12 h-12 relative">
         <img
           class="w-12 h-12 left-0 top-0 absolute"
-          src="https://via.placeholder.com/48x48"
+          src="images/icons8linkedin.png"
         />
       </div>
       <div class="w-12 h-12 relative">
         <img
           class="w-12 h-12 left-0 top-0 absolute"
-          src="https://via.placeholder.com/48x48"
+          src="images/icons8whatsapp.png"
         />
       </div>
     </div>
